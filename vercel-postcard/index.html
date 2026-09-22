@@ -54,6 +54,11 @@
       .question-nav{gap:4px}
       .question-nav button{font-size:12px;padding:8px 6px}
     }
+    .future-memory{max-width:720px;margin:34px auto 0;padding:22px;background:#fffafc;border:1px solid #f1c8d8;border-radius:22px;box-shadow:0 14px 38px #b7547d26;text-align:center;position:relative;overflow:hidden}
+    .future-memory:before{content:'♡';position:absolute;right:16px;top:7px;color:#e9a8bf;font-size:35px}
+    .future-memory img{display:block;width:100%;height:auto;max-height:500px;object-fit:contain;border-radius:12px;background:#f9e8ee}
+    .future-memory figcaption{font:clamp(30px,5vw,47px)/1.2 'Great Vibes',cursive;color:#c95f88;margin:17px 8px 3px}
+    @media(max-width:720px){.future-memory{margin-top:22px;padding:12px;border-radius:18px}.future-memory img{max-height:none}.future-memory figcaption{font-size:clamp(29px,8vw,39px);margin:15px 8px 7px}}
   </style>
 </head>
 <body>
@@ -70,6 +75,7 @@
         </div><p class="first-date-caption">It's all start from here (our first date)</p></div>
         <div class="message"><div class="eyebrow">A little note for you</div><div class="date">23 · 09 · 26</div><h1 class="title">Happy 1st<br>Monthsary</h1><div class="line"></div><p class="burmese">တို့နှစ်ယောက်ရဲ့ ပထမဆုံး တစ်လပြည့်နေ့လေးမှာ<br>မင်းနဲ့အတူရှိရတဲ့ အချိန်တိုင်းအတွက် ကျေးဇူးတင်ပါတယ်။<br>ရှေ့ဆက်ပြီးလည်း အမှတ်တရလှလှလေးတွေ အတူတူဖန်တီးကြမယ်နော် ♡</p><p class="english">Here’s to our first little milestone and all the lovely days ahead.</p><div class="signature">with love, always ♡</div></div>
       </article>
+      <figure class="future-memory"><img src="walk-together.jpg" alt="Walking together on a stone path" loading="lazy"><figcaption>Walk together to brighter future of us</figcaption></figure>
       <div class="controls"><button class="music" id="music" type="button" aria-pressed="false">♫ သီချင်းလေး ဖွင့်ရန်</button><span class="hint">ကမ္ဘာအဆက်ဆက် · Bunny Phyoe ft. Amera Hpone</span></div>
       <section class="questions" aria-labelledby="question-heading"><h2 id="question-heading">How much do you love Ko Ko?</h2><p class="intro">ကိုကို့ကို ဘယ်လောက်ထိချစ်လဲဆိုတဲ့ မေးခွန်းလေး ၁၅ ခု ♡</p><div class="question-card"><span class="question-count" id="question-count">01 / 15</span><p class="question-text" id="question-text" aria-live="polite"></p><div class="question-actions"><button class="answer" type="button" id="answer-one">ချစ်မှာပေါ့ ♡</button><button type="button" id="answer-two">အများကြီးချစ်မှာ ♡♡</button></div><p class="answer-note" id="answer-note" aria-live="polite"></p></div><div class="question-nav"><button type="button" id="previous">← အရင်မေးခွန်း</button><button type="button" id="next">နောက်မေးခွန်း →</button></div></section>
     </div>
